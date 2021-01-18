@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, YangZhang
+# This file is distributed under the same license as the my-readthedocs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: my-readthedocs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-18 18:50+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../installation.rst:2 ../installation.rst:23
+msgid "Installation"
+msgstr "安装"
+
+#: ../installation.rst:5
+msgid "MyEMS API Service"
+msgstr "MyEMS API 服务"
+
+#: ../installation.rst:8
+msgid "Introduction"
+msgstr "介绍"
+
+#: ../installation.rst:10
+msgid ""
+"Providing REST API service for MyEMS Web APP, Android APP and iOS "
+"APPand/or third parties"
+msgstr ""
+
+#: ../installation.rst:13
+msgid "Prerequisites"
+msgstr "先决条件"
+
+#: ../installation.rst:14
+msgid "anytree"
+msgstr ""
+
+#: ../installation.rst:15
+msgid "simplejson"
+msgstr ""
+
+#: ../installation.rst:16
+msgid "mysql.connector"
+msgstr ""
+
+#: ../installation.rst:17
+msgid "falcon"
+msgstr ""
+
+#: ../installation.rst:18
+msgid "falcon_cors"
+msgstr ""
+
+#: ../installation.rst:19
+msgid "gunicorn"
+msgstr ""
+
+#: ../installation.rst:20
+msgid "openpyxl"
+msgstr ""
+
+#: ../installation.rst:25
+msgid "Install anytree::"
+msgstr ""
+
+#: ../installation.rst:32
+msgid "Install simplejson::"
+msgstr ""
+
+#: ../installation.rst:39
+msgid "Install MySQL Connector::"
+msgstr ""
+
+#: ../installation.rst:47
+msgid "Install Falcon"
+msgstr ""
+
+#: ../installation.rst
+msgid "if you are behind proxy, use --proxy parameter"
+msgstr ""
+
+#: ../installation.rst
+msgid "Refer to"
+msgstr ""
+
+#: ../installation.rst
+msgid "`https://falconframework.org/ <https://falconframework.org/>`_"
+msgstr ""
+
+#: ../installation.rst
+msgid ""
+"`https://github.com/lwcolton/falcon-cors <https://github.com/lwcolton"
+"/falcon-cors>`_"
+msgstr ""
+
+#: ../installation.rst
+msgid ""
+"`https://github.com/yohanboniface/falcon-multipart "
+"<https://github.com/yohanboniface/falcon-multipart>`_"
+msgstr ""
+
+#: ../installation.rst:63
+msgid "Install gunicorn, refer to `http://gunicorn.org <http://gunicorn.org>`_::"
+msgstr ""
+
+#: ../installation.rst:69
+msgid ""
+"Install openpyxl, refer to `https://foss.heptapod.net/openpyxl/openpyxl "
+"<https://foss.heptapod.net/openpyxl/openpyxl>`_"
+msgstr ""
+
+#: ../installation.rst
+msgid ""
+"Get the latest version of et_xmlfile from "
+"`https://bitbucket.org/openpyxl/et_xmlfile/downloads/ "
+"<https://bitbucket.org/openpyxl/et_xmlfile/downloads/>`_"
+msgstr ""
+
+#: ../installation.rst
+msgid ""
+"Get the latest version of jdcal from `https://github.com/phn/jdcal "
+"<https://github.com/phn/jdcal>`_"
+msgstr ""
+
+#: ../installation.rst
+msgid ""
+"Get the latest version of openpyxl from "
+"`https://bitbucket.org/openpyxl/openpyxl/downloads/ "
+"<https://bitbucket.org/openpyxl/openpyxl/downloads/>`_"
+msgstr ""
+
+#: ../installation.rst:91
+msgid "Install gunicorn service for myems-api::"
+msgstr ""
+
+#: ../installation.rst:96
+msgid "Check and change the config file if necessary::"
+msgstr ""
+
+#: ../installation.rst:100
+msgid "Change the listening port (8080 as an example) in gunicorn.socket::"
+msgstr ""
+
+#: ../installation.rst:106
+msgid "Setup systemd configure files::"
+msgstr ""
+
+#: ../installation.rst:112
+msgid "Next enable the services so they autostart at boot::"
+msgstr ""
+
+#: ../installation.rst:117
+msgid "Start the services::"
+msgstr ""
+
+#: ../installation.rst:122
+msgid "**Run for debugging and testing**::"
+msgstr ""
+

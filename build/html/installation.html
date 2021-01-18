@@ -1,0 +1,349 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>安装 &mdash; my-readthedocs 1.0 文档</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="prev" title="Welcome to my-readthedocs’s documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> my-readthedocs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">安装</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#myems-api-service">MyEMS API 服务</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#introduction">介绍</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#prerequisites">先决条件</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id1">安装</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">my-readthedocs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>安装</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/installation.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="installation">
+<h1>安装<a class="headerlink" href="#installation" title="永久链接至标题">¶</a></h1>
+<div class="section" id="myems-api-service">
+<h2>MyEMS API 服务<a class="headerlink" href="#myems-api-service" title="永久链接至标题">¶</a></h2>
+<div class="section" id="introduction">
+<h3>介绍<a class="headerlink" href="#introduction" title="永久链接至标题">¶</a></h3>
+<p>Providing REST API service for MyEMS Web APP, Android APP and iOS APPand/or third parties</p>
+</div>
+<div class="section" id="prerequisites">
+<h3>先决条件<a class="headerlink" href="#prerequisites" title="永久链接至标题">¶</a></h3>
+<div class="line-block">
+<div class="line">anytree</div>
+<div class="line">simplejson</div>
+<div class="line">mysql.connector</div>
+<div class="line">falcon</div>
+<div class="line">falcon_cors</div>
+<div class="line">gunicorn</div>
+<div class="line">openpyxl</div>
+</div>
+</div>
+<div class="section" id="id1">
+<h3>安装<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h3>
+<ul>
+<li><p>Install anytree:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cd ~/tools
+$ git clone https://github.com/c0fec0de/anytree.git
+$ cd anytree
+$ sudo python3 setup.py install
+</pre></div>
+</div>
+</li>
+<li><p>Install simplejson:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cd ~/tools
+$ git clone https://github.com/simplejson/simplejson.git
+$ cd simplejson
+$ sudo python3 setup.py install
+</pre></div>
+</div>
+</li>
+<li><p>Install MySQL Connector:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cd ~/tools
+$ wget https://dev.mysql.com/get/Downloads/Connector-Python/mysql-connector-python-8.0.20.tar.gz
+$ tar xzf mysql-connector-python-8.0.20.tar.gz
+$ cd ~/tools/mysql-connector-python-8.0.20
+$ sudo python3 setup.py install
+</pre></div>
+</div>
+</li>
+<li><p>Install Falcon</p>
+<div class="line-block">
+<div class="line">if you are behind proxy, use –proxy parameter</div>
+<div class="line">Refer to</div>
+<div class="line"><a class="reference external" href="https://falconframework.org/">https://falconframework.org/</a></div>
+<div class="line"><a class="reference external" href="https://github.com/lwcolton/falcon-cors">https://github.com/lwcolton/falcon-cors</a></div>
+<div class="line"><a class="reference external" href="https://github.com/yohanboniface/falcon-multipart">https://github.com/yohanboniface/falcon-multipart</a></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ mkdir ~/tools/falcon &amp;&amp; cd ~/tools/falcon
+$ pip3 download cython falcon falcon-cors falcon-multipart
+$ export LC_ALL=&quot;en_US.UTF-8&quot;
+$ export LC_CTYPE=&quot;en_US.UTF-8&quot;
+$ sudo dpkg-reconfigure locales
+$ sudo pip3 install --upgrade --no-index --find-links ~/tools/falcon cython falcon falcon-cors falcon-multipart
+</pre></div>
+</div>
+</li>
+<li><p>Install gunicorn, refer to <a class="reference external" href="http://gunicorn.org">http://gunicorn.org</a>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ mkdir ~/tools/gunicorn &amp;&amp; cd ~/tools/gunicorn
+$ pip3 download gunicorn
+$ sudo pip3 install --no-index --find-links ~/tools/gunicorn gunicorn
+</pre></div>
+</div>
+</li>
+<li><p>Install openpyxl, refer to <a class="reference external" href="https://foss.heptapod.net/openpyxl/openpyxl">https://foss.heptapod.net/openpyxl/openpyxl</a></p>
+<div class="line-block">
+<div class="line">Get the latest version of et_xmlfile from <a class="reference external" href="https://bitbucket.org/openpyxl/et_xmlfile/downloads/">https://bitbucket.org/openpyxl/et_xmlfile/downloads/</a></div>
+<div class="line">Get the latest version of jdcal from <a class="reference external" href="https://github.com/phn/jdcal">https://github.com/phn/jdcal</a></div>
+<div class="line">Get the latest version of openpyxl from <a class="reference external" href="https://bitbucket.org/openpyxl/openpyxl/downloads/">https://bitbucket.org/openpyxl/openpyxl/downloads/</a></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cd ~/tools
+$ wget https://foss.heptapod.net/openpyxl/et_xmlfile/-/archive/branch/default/et_xmlfile-branch-default.zip
+$ 7z x et_xmlfile-branch-default.zip
+$ cd ~/tools/et_xmlfile-branch-default
+$ sudo python3 setup.py install
+$ cd ~/tools
+$ git clone https://github.com/phn/jdcal.git
+$ cd ~/tools/jdcal
+$ sudo python3 setup.py install
+$ cd ~/tools
+$ wget https://foss.heptapod.net/openpyxl/openpyxl/-/archive/branch/3.0/openpyxl-branch-3.0.zip
+$ 7z x openpyxl-branch-3.0.zip
+$ cd ~/tools/openpyxl-branch-3.0
+$ sudo python3 setup.py install
+</pre></div>
+</div>
+</li>
+<li><p>Install gunicorn service for myems-api:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cd ~/myems-api
+$ sudo cp -R ~/myems-api /myems-api
+</pre></div>
+</div>
+<p>Check and change the config file if necessary:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ sudo nano /myems-api/config.py
+</pre></div>
+</div>
+<p>Change the listening port (8080 as an example) in gunicorn.socket:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ sudo nano /myems-api/gunicorn.socket
+ListenStream=0.0.0.0:8080
+$ sudo ufw allow 8080
+</pre></div>
+</div>
+<p>Setup systemd configure files:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ sudo cp /myems-api/gunicorn.service /lib/systemd/system/
+$ sudo cp /myems-api/gunicorn.socket /lib/systemd/system/
+$ sudo cp /myems-api/gunicorn.conf /usr/lib/tmpfiles.d/
+</pre></div>
+</div>
+<p>Next enable the services so they autostart at boot:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ sudo systemctl enable gunicorn.socket
+$ sudo systemctl enable gunicorn.service
+</pre></div>
+</div>
+<p>Start the services:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ sudo systemctl start gunicorn.socket
+$ sudo systemctl start gunicorn.service
+</pre></div>
+</div>
+<p><strong>Run for debugging and testing</strong>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cd myems-api
+$ sudo gunicorn -b 127.0.0.1:8080 app:api
+</pre></div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to my-readthedocs’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; 版权所有 2021, YangZhang.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
